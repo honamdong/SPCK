@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+ 
+    <title>Form login unitop.vn</title>
+</head>
+<body>
+<div class="tdk">
+  <form>
+    <input checked id='signin' name='action' type='radio' value='signin'>
+  <label for='signin'>Sign in</label>
+  <input id='signup' name='action' type='radio' value='signup'>
+  <label for='signup'>Sign up</label>
+  <input id='reset' name='action' type='radio' value='reset'>
+  <label for='reset'>Reset</label>
+  <div id='wrapper'>
+    <div id='arrow'></div>
+    <input id='email' placeholder='Email' type='text'>
+    <input id='pass' placeholder='Password' type='password'>
+    <input id='repass' placeholder='Repeat password' type='password'>
+  </div>
+
+  <button type='submit'>
+    <span>
+    <a style="text-decoration: none" href="/index.html">Reset password</a>
+      <br>
+      <a style="text-decoration: none" href="/index.html">Sign in</a>
+      <br>
+      <a style="text-decoration: none" href="/index.html">Sign up</a>
+    </span>
+  </button>
+
+</form>
+</div>
+</body>
+<script src="js/app.js"></script>
+</html>
